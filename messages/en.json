@@ -1,0 +1,779 @@
+{
+  "NavBar": {
+    "gallery": "Gallery",
+    "process": "Process",
+    "about": "About",
+    "shop": "Shop",
+    "login": "Login",
+    "register": "Register",
+    "loading": "Loading...",
+    "profile": "Profile",
+    "adminDashboard": "Admin Dashboard",
+    "logout": "Logout"
+  },
+  "Hero": {
+    "eyebrow": "Est. 2026 — Hand-Finished Embroidery",
+    "headingLine1": "Wear Your",
+    "headingEm": "Own Story",
+    "body": "Upload your design, choose your garment, and we'll embroider it with precision — stitch by stitch, thread by thread.",
+    "ctaPrimary": "Start Customizing",
+    "ctaSecondary": "View Gallery",
+    "badgeEmbroidered": "100% Hand-Embroidered",
+    "badgeShipping": "Ships in 5–7 Days"
+  },
+  "HowItWorks": {
+    "eyebrow": "How It Works",
+    "step1Title": "Choose Your Garment",
+    "step1Desc": "Select from our curated collection of premium shirts, hoodies, caps, totes, and more — all embroidery-ready and pre-washed.",
+    "step2Title": "Upload Your Design",
+    "step2Desc": "Upload your artwork, logo, or text. Our software converts it into stitch patterns — or choose from our curated library of motifs.",
+    "step3Title": "We Embroider It",
+    "step3Desc": "Our artisans review each order and embroider your design using professional-grade machines with 40+ thread colors available.",
+    "step4Title": "Delivered to You",
+    "step4Desc": "Your custom piece arrives in our signature packaging within 5–7 business days, ready to wear or gift."
+  },
+  "WhyChooseUs": {
+    "eyebrow": "What Makes Us Different",
+    "headingLine1": "Why Choose",
+    "headingEm": "Us",
+    "reason1Title": "Hand-Finished Quality",
+    "reason1Desc": "Every piece is reviewed and finished by hand so your design looks beautiful and lasts longer.",
+    "reason1Detail": "Precision stitching, premium threads, and artisan care on every order.",
+    "reason2Title": "Fast Turnaround",
+    "reason2Desc": "Custom embroidery that ships in 5–7 days, with tracking and premium packaging included.",
+    "reason2Detail": "From upload to delivery, we keep your order moving without rushing the finish.",
+    "reason3Title": "Personal Design Support",
+    "reason3Desc": "Need help preparing artwork or choosing colors? Our team guides you every step of the way.",
+    "reason3Detail": "Upload a design, or ask for design review before we start stitching.",
+    "learnMore": "Learn more"
+  },
+  "StudioGallery": {
+    "eyebrow": "Handcrafted Work",
+    "headingThe": "The",
+    "headingStudio": "Studio",
+    "headingGallery": "Gallery",
+    "empty": "No images yet",
+    "stitchLabel": "Every stitch placed by hand",
+    "lightboxClose": "Close ✕",
+    "lightboxHint": "Click outside to close"
+  },
+  "FeaturedPieces": {
+    "eyebrow": "Handpicked for You",
+    "headingLine1": "Featured",
+    "headingEm": "Pieces",
+    "errorLoading": "Error loading featured products"
+  },
+  "Footer": {
+    "brandName": "Hoodify",
+    "tagline": "Custom embroidery built for personal stories, small brands, and one-of-a-kind pieces.",
+    "exploreTitle": "Explore",
+    "shop": "Shop",
+    "gallery": "Gallery",
+    "process": "Process",
+    "about": "About",
+    "contactTitle": "Contact",
+    "email": "hello@hoodify.com",
+    "shippingNote": "5–7 day embroidery shipping",
+    "craftedNote": "Crafted in 2026",
+    "copyright": "Hoodify. All rights reserved."
+  },
+  "ProductCard": {
+    "bestseller": "Bestseller",
+    "addYourDesign": "Add Your Design",
+    "addToCart": "Add to Cart",
+    "chooseOptions": "Choose Options",
+    "view": "View"
+  },
+  "ProcessPage": {
+    "heroEyebrow": "How it works",
+    "heroTitleLine1": "From idea",
+    "heroTitleLine2": "to",
+    "heroTitleItalic": "stitched",
+    "heroTitleLine3": "reality",
+    "heroBody": "Every ThreadCraft piece follows the same four-step journey — from your first click to the moment it arrives at your door, hand-finished and ready to wear.",
+    "stats": [
+      { "num": "5–7", "label": "Days to deliver" },
+      { "num": "40+", "label": "Thread colors" },
+      { "num": "100%", "label": "Hand embroidered" },
+      { "num": "0", "label": "Minimum order" }
+    ],
+    "steps": [
+      {
+        "label": "Select garment",
+        "title": "Choose your garment",
+        "desc": "Browse our curated collection of embroidery-ready garments — pre-washed, pre-shrunk, and selected for how well they hold a stitch.",
+        "details": [
+          "Hoodies, sweatshirts, t-shirts, caps, tote bags and more",
+          "Multiple colors per garment, shown in real product photos",
+          "All garments are embroidery-grade — no cheap blanks",
+          "Size guide available on every product page"
+        ]
+      },
+      {
+        "label": "Design studio",
+        "title": "Design in the studio",
+        "desc": "Open the live design studio and place your embroidery exactly where you want it. Drag, resize, and preview in real time.",
+        "details": [
+          "Choose from our curated motif library — sun, anchor, waves and more",
+          "Upload your own logo or artwork (PNG, SVG, JPG up to 20MB)",
+          "Add custom text in multiple font styles",
+          "Pick from 40+ thread colors, applied to any layer individually"
+        ]
+      },
+      {
+        "label": "Production",
+        "title": "We embroider it",
+        "desc": "Our artisans review every order individually. Your design is digitized into a stitch file, then embroidered with professional-grade machines.",
+        "details": [
+          "Every order reviewed by a human before production starts",
+          "Professional embroidery machines — not heat transfer or print",
+          "Complex logos are hand-digitized for stitch accuracy",
+          "Quality check before packaging — we don't ship flawed pieces"
+        ]
+      },
+      {
+        "label": "Delivery",
+        "title": "Delivered to you",
+        "desc": "Your piece arrives in our signature packaging within 5–7 business days. Ready to wear, gift, or send directly to your team.",
+        "details": [
+          "5–7 business days from order confirmation",
+          "Signature ThreadCraft packaging — makes a great gift",
+          "Ships worldwide, tracking included on every order",
+          "Bulk orders for teams and businesses — contact us for pricing"
+        ]
+      }
+    ],
+    "guarantees": [
+      {
+        "num": "100%",
+        "title": "Satisfaction guarantee",
+        "desc": "If your piece arrives with a defect or doesn't match your design, we redo it — no questions, no fees."
+      },
+      {
+        "num": "Real",
+        "title": "Embroidery, not print",
+        "desc": "Every design is stitched directly into the fabric. It won't peel, fade, or crack — it outlasts the garment itself."
+      },
+      {
+        "num": "Free",
+        "title": "Revisions before production",
+        "desc": "We send a digital proof before we start embroidering. You approve it — then we stitch."
+      }
+    ],
+    "faqEyebrow": "Common questions",
+    "faqTitle": "FAQ",
+    "faqs": [
+      {
+        "q": "What file formats can I upload?",
+        "a": "PNG, SVG, and JPG up to 20MB. For best results, use a PNG with a transparent background or a clean SVG. Avoid low-resolution images — the embroidery will only be as sharp as your file."
+      },
+      {
+        "q": "How long does production take?",
+        "a": "5–7 business days from the moment you place your order. Rush orders are available — contact us before ordering and we'll confirm availability."
+      },
+      {
+        "q": "Can I order for my team or business?",
+        "a": "Yes. We do bulk orders for corporate uniforms, sports teams, clinics, and branded merchandise. Contact us for pricing — bulk orders get a discount."
+      },
+      {
+        "q": "What if I don't like the result?",
+        "a": "We send a digital proof before production. If the finished piece has a defect or doesn't match what you approved, we redo it at no cost."
+      },
+      {
+        "q": "Do you ship internationally?",
+        "a": "Yes — we ship worldwide. Shipping times and costs vary by destination and are shown at checkout before you pay."
+      },
+      {
+        "q": "Can I embroider on something I already own?",
+        "a": "Not yet — we only embroider on garments from our own collection. This ensures the fabric is compatible with our machines and gives consistent results."
+      }
+    ],
+    "stitchLabel": "Every stitch placed by hand",
+    "ctaLine1": "Ready to create",
+    "ctaLine2": "something",
+    "ctaItalic": "yours?",
+    "ctaButton": "Start customizing →"
+  },
+  "GalleryPage": {
+    "eyebrow": "Our work",
+    "titleItalic": "Studio",
+    "titleLine2": "Gallery",
+    "subtitle": "Every piece hand-embroidered, every stitch placed with intention.",
+    "piecesCrafted": "Pieces crafted",
+    "filters": {
+      "all": "All",
+      "hoodie": "Hoodies",
+      "tshirt": "T-Shirts",
+      "sweatshirt": "Sweatshirts",
+      "cap": "Caps",
+      "totebag": "Tote Bags",
+      "uniform": "Uniforms",
+      "medical": "Medical"
+    },
+    "emptyTitle": "No pieces in this category yet",
+    "emptySubtitle": "Check back soon",
+    "viewAll": "View all pieces",
+    "stitchLabel": "Every stitch placed by hand",
+    "lightboxClose": "Close ✕",
+    "galleryImageAlt": "Gallery piece"
+  },
+  "AboutPage": {
+    "eyebrow": "About us",
+    "headingLine1": "Handcrafted embroidery",
+    "headingEm": "for every story.",
+    "intro": "At THREADcraft, we bring wardrobe dreams to life with embroidery that feels personal, intentional, and elevated. Every piece is designed with the textures, colors, and spirit of modern craftsmanship in mind.",
+    "pillars": [
+      {
+        "label": "Our mission",
+        "title": "Elevate everyday essentials.",
+        "body": "We create embroidered apparel that turns simple garments into meaningful statements. From custom logos to unique thread details, our work is made to be worn, treasured, and shared."
+      },
+      {
+        "label": "Our process",
+        "title": "Crafted one stitch at a time.",
+        "body": "Every design begins with thoughtful concepting, followed by careful embroidery and quality review. We pair traditional technique with modern styling so every result feels both timeless and fresh."
+      },
+      {
+        "label": "Our promise",
+        "title": "Built to last.",
+        "body": "From premium fabrics to durable thread, we take pride in results that look beautiful and stand the test of wear. Your custom order is completed with care, precision, and attention to every detail."
+      }
+    ],
+    "whyEyebrow": "Why THREADcraft",
+    "whyParagraph1": "We believe meaningful apparel should be personal, not generic. That means listening to your story, refining the design, and delivering a finished piece that feels unmistakably yours.",
+    "whyParagraph2": "Whether you want a custom logo, embroidered text, or a fully bespoke look, our studio is built to make your vision feel effortless and beautifully executed.",
+    "valuesEyebrow": "Our values",
+    "values": [
+      {
+        "title": "Thoughtful craftsmanship",
+        "body": "Every stitch is chosen with care, and every garment is finished with quality in mind."
+      },
+      {
+        "title": "Personal service",
+        "body": "We help you bring your idea to life with a simple process and close collaboration."
+      },
+      {
+        "title": "Sustainable detail",
+        "body": "Long-lasting products, carefully made using better materials and mindful production."
+      }
+    ],
+    "ctaEyebrow": "Join the studio",
+    "ctaTitle": "Ready to start your next custom piece?",
+    "ctaBody": "Whether you're designing for a team, a brand, or a personal collection, we're here to make it unforgettable.",
+    "ctaShop": "Shop collection",
+    "ctaGallery": "Explore gallery"
+  },
+  "ShopPage": {
+    "eyebrow": "Our Collection",
+    "title": "Shop All Products",
+    "all": "All",
+    "noProducts": "No products found."
+  },
+  "CartPage": {
+    "title": "Your Cart",
+    "itemCount": "{count, plural, =1 {1 item} other {# items}}",
+    "emptyMessage": "Your cart is empty.",
+    "continueShopping": "Continue Shopping",
+    "orderSummary": "Order Summary",
+    "subtotal": "Subtotal",
+    "items": "Items",
+    "total": "Total",
+    "checkout": "Proceed to Checkout",
+    "clearCart": "Clear Cart",
+    "clearModalTitle": "Clear Cart?",
+    "clearModalBody": "Are you sure you want to remove all items from your cart? This action cannot be undone.",
+    "cancel": "Cancel",
+    "size": "Size",
+    "color": "Color",
+    "priceEach": "{price} EGP each",
+    "remove": "Remove",
+    "currency": "EGP"
+  },
+  "ProfilePage": {
+    "eyebrow": "Account",
+    "title": "My Profile",
+    "editProfile": "Edit Profile",
+    "accountInformation": "Account Information",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "saveChanges": "Save Changes",
+    "cancel": "Cancel",
+    "notProvided": "—",
+    "recentOrders": "Recent Orders",
+    "noOrders": "No orders yet.",
+    "loading": "Loading…",
+    "currency": "EGP",
+    "loadOrderError": "Unable to load order details. Please try again.",
+    "statuses": {
+      "pending": "Pending",
+      "processing": "Processing",
+      "shipped": "Shipped",
+      "delivered": "Delivered",
+      "cancelled": "Cancelled"
+    },
+    "orderModal": {
+      "title": "Order Details",
+      "status": "Status",
+      "date": "Date",
+      "currency": "Currency",
+      "total": "Total",
+      "items": "Items",
+      "qty": "Qty",
+      "each": "each",
+      "unknownProduct": "Unknown Product",
+      "customization": "Customization",
+      "addOns": "Add-ons",
+      "close": "Close"
+    }
+  },
+  "AdminSidebar": {
+    "brand": "THREADcraft",
+    "applicationLabel": "Application",
+    "productsLabel": "Products",
+    "configurationLabel": "Configuration",
+    "nav": {
+      "dashboard": "Dashboard",
+      "users": "Users",
+      "products": "Products",
+      "orders": "Orders",
+      "designs": "Designs"
+    },
+    "addProduct": "Add Product",
+    "newType": "New Type",
+    "pricing": "Pricing",
+    "admin": "Admin",
+    "account": "Account",
+    "logout": "Logout"
+  },
+  "AdminNavbar": {
+    "brand": "THREADcraft",
+    "applicationLabel": "Application",
+    "productsLabel": "Products",
+    "configurationLabel": "Configuration",
+    "nav": {
+      "dashboard": "Dashboard",
+      "users": "Users",
+      "products": "Products",
+      "orders": "Orders",
+      "designs": "Designs",
+      "pricing": "Pricing"
+    },
+    "addProduct": "Add Product",
+    "newType": "New Type",
+    "pricing": "Pricing",
+    "admin": "Admin",
+    "account": "Account",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "AdminDashboard": {
+    "eyebrow": "Overview",
+    "title": "Dashboard",
+    "stats": {
+      "totalUsers": "Total Users",
+      "totalProducts": "Total Products",
+      "pendingOrders": "Pending Orders",
+      "completedOrders": "Completed Orders"
+    },
+    "recentUsers": "Recent Users",
+    "recentProducts": "Recent Products",
+    "viewAll": "View all →",
+    "noUsers": "No users yet",
+    "noProducts": "No products yet",
+    "currency": "EGP"
+  },
+  "AdminUsersPage": {
+    "eyebrow": "Management",
+    "title": "All Users"
+  },
+  "AdminProductsPage": {
+    "eyebrow": "Management",
+    "title": "All Products"
+  },
+  "AdminProductsTable": {
+    "image": "Image",
+    "name": "Name",
+    "price": "Price",
+    "createdAt": "Created at",
+    "rowsPerPage": "Rows per page",
+    "pageInfo": "Page {page} of {count}",
+    "goToFirstPage": "Go to first page",
+    "goToPreviousPage": "Go to previous page",
+    "goToNextPage": "Go to next page",
+    "goToLastPage": "Go to last page"
+  },
+
+  "AdminUsersTable": {
+    "selectAll": "Select all",
+    "selectRow": "Select row",
+    "name": "Name",
+    "email": "Email",
+    "noName": "—"
+  },
+  "AdminProductsColumns": {
+    "selectAll": "Select all",
+    "selectRow": "Select row",
+    "image": "Image",
+    "productAlt": "Product",
+    "name": "Name",
+    "price": "Price",
+    "createdAt": "Created at",
+    "invalidDate": "Invalid date",
+    "openMenu": "Open menu",
+    "actions": "Actions",
+    "copyId": "Copy payment ID",
+    "viewProduct": "View product",
+    "delete": "Delete"
+  },
+
+  "AdminOrdersPage": {
+    "eyebrow": "Management",
+    "title": "All Orders",
+    "showingOrdersFor": "Showing orders for"
+  },
+  "AdminOrdersColumns": {
+    "selectAll": "Select all",
+    "selectRow": "Select row",
+    "orderId": "Order ID",
+    "userId": "User ID",
+    "customerName": "Customer Name",
+    "status": "Status",
+    "statuses": {
+      "cart": "Cart",
+      "pending": "Pending",
+      "processing": "Processing",
+      "shipped": "Shipped",
+      "delivered": "Delivered",
+      "cancelled": "Cancelled"
+    },
+    "items": "Items",
+    "total": "Total",
+    "createdAt": "Created at",
+    "invalidDate": "Invalid date",
+    "noDate": "—",
+    "openMenu": "Open menu",
+    "actions": "Actions",
+    "copyOrderId": "Copy order ID",
+    "viewOrder": "View order",
+    "viewUser": "View User",
+    "delete": "Delete"
+  },
+  "AdminOrdersTable": {
+    "rowsPerPage": "Rows per page",
+    "pageInfo": "Page {page} of {count}",
+    "goToFirstPage": "Go to first page",
+    "goToPreviousPage": "Go to previous page",
+    "goToNextPage": "Go to next page",
+    "goToLastPage": "Go to last page",
+    "rowsSelected": "{selected} of {total} row(s) selected."
+  },
+  "AdminDataTable": {
+    "deleting": "Deleting...",
+    "deleteSelected": "Delete",
+    "noResults": "No results."
+  },
+  "AdminDesignsPage": {
+    "eyebrow": "Studio library",
+    "title": "Library Designs",
+    "subtitle": "Curated motifs and assets for orders, products, and the customer studio.",
+    "addDesign": "Add design",
+    "totalDesigns": "Total designs",
+    "latestUpdate": "Latest update",
+    "latestUpdateDesc": "Manage PNG and SVG assets with elegant previews.",
+    "noDesignsTitle": "No designs yet",
+    "noDesignsSubtitle": "Add your first design to make it available in the studio.",
+    "svgMotifs": "SVG Motifs",
+    "pngDesigns": "PNG Designs",
+    "modalTitle": "Add design",
+    "svgMotifTab": "SVG Motif",
+    "pngDesignTab": "PNG Design",
+    "labelField": "Label",
+    "labelPlaceholder": "e.g. Dragon",
+    "keyField": "Key",
+    "keyHint": "(saved in orders, don't change after launch)",
+    "keyPlaceholder": "e.g. dragon",
+    "svgPathsField": "SVG paths",
+    "svgPathsHint": "(inner content only, no <svg> wrapper)",
+    "livePreview": "Live preview",
+    "uploadPng": "Upload PNG",
+    "remove": "Remove",
+    "clickToUpload": "Click to upload",
+    "uploadingCloudinary": "Uploading to Cloudinary…",
+    "save": "Save design",
+    "saving": "Saving…",
+    "deleteDesign": "Delete design",
+    "closeModal": "Close"
+  },
+  "AdminProductFormPage": {
+    "breadcrumbProducts": "Products",
+    "breadcrumbNew": "New Product",
+    "heroCreate": "Create",
+    "heroProduct": "Product",
+    "heroSubtitle": "Add a new item to the catalogue",
+    "stepInfo": "Info",
+    "stepImages": "Images",
+    "stepVariants": "Variants",
+    "section01": "01 — Basic Info",
+    "productDetailsTitle": "Product Details",
+    "productDetailsSubtitle": "Name, price, and product category",
+    "productNameLabel": "Product Name",
+    "productNamePlaceholder": "e.g. The Studio Hoodie",
+    "descriptionLabel": "Description",
+    "descriptionPlaceholder": "Describe the product...",
+    "basePriceLabel": "Base Price (EGP)",
+    "basePriceHint": "Variants can override this price",
+    "productTypeLabel": "Product Type",
+    "section02": "02 — Settings",
+    "productFlagsTitle": "Product Flags",
+    "productFlagsSubtitle": "Control visibility options",
+    "featuredTitle": "Featured",
+    "featuredDesc": "Show on homepage hero section",
+    "section03": "03 — Studio",
+    "customizationModeTitle": "Customization Mode",
+    "customizationModeSubtitle": "How customers interact with this product",
+    "modeReadyTitle": "Ready",
+    "modeReadyDesc": "No customization — sold as-is",
+    "modeFreeTitle": "Free Studio",
+    "modeFreeDesc": "Customer freely places designs, text, and uploads anywhere",
+    "modeTemplateTitle": "Template",
+    "modeTemplateDesc": "Pre-designed product — customer only enters their name in a fixed position",
+    "uploadFrontWarning": "Upload a \"front\" image in the Media section below first — you'll be able to place the name and design directly on it here instead of guessing coordinates.",
+    "namePositionTitle": "Name Position",
+    "namePositionSubtitle": "Where the customer's name will appear on the garment",
+    "nameplatePositionLabel": "Nameplate position",
+    "widthPxLabel": "Width (px)",
+    "fontLabel": "Font",
+    "threadColorLabel": "Thread Color",
+    "selectedColor": "Selected: {color}",
+    "placeholderTextLabel": "Placeholder text",
+    "yourNamePlaceholder": "Your name",
+    "placeholderHint": "Shown in the input field before the customer types",
+    "baseDesignTitle": "Base Design",
+    "baseDesignSubtitle": "Optional fixed design already on the garment",
+    "addBaseDesign": "Add base design",
+    "designLabel": "Design",
+    "selectDesignPlaceholder": "Select a design...",
+    "baseDesignPositionLabel": "Base design position",
+    "designMarkerText": "Design",
+    "section04": "04 — Media",
+    "productImagesTitle": "Product Images",
+    "productImagesSubtitle": "Upload images and assign each to a placement view",
+    "dropImages": "Drop images here or click to upload",
+    "imageHint": "PNG · JPG · WEBP — Max 10MB each",
+    "placementFront": "Front",
+    "placementBack": "Back",
+    "placementLeftSleeve": "Left Sleeve",
+    "placementRightSleeve": "Right Sleeve",
+    "colorOptionalPlaceholder": "color (optional)",
+    "section05": "05 — Variants",
+    "productVariantsTitle": "Product Variants",
+    "productVariantsSubtitle": "Define every available color, size, and stock quantity",
+    "colColor": "Color",
+    "colSize": "Size",
+    "colStock": "Stock",
+    "colPrice": "Price",
+    "colorPlaceholder": "color",
+    "stockPlaceholder": "stock",
+    "pricePlaceholder": "price",
+    "addVariant": "Add Variant",
+    "readyToCreate": "Ready to create —",
+    "fillRequiredFields": "fill in the required fields",
+    "discard": "Discard",
+    "createProduct": "Create Product",
+    "toastSuccess": "The Product was created successfully",
+    "toastError": "Failed to create the product",
+    "fonts": {
+      "playfairItalic": "Playfair Italic",
+      "cormorant": "Cormorant",
+      "dmMono": "DM Mono"
+    },
+    "threadColors": {
+      "sienna": "Sienna",
+      "gold": "Gold",
+      "ivory": "Ivory",
+      "navy": "Navy",
+      "black": "Black",
+      "sage": "Sage",
+      "burgundy": "Burgundy"
+    }
+  },
+  "PositionPicker": {
+    "instructionLabel": "{label} — click anywhere on the garment or drag the marker",
+    "uploadPrompt": "Upload a \"front\" image above to preview placement here",
+    "positionInfo": "Top: {top}% · Left: {left}%",
+    "dragMe": "Drag me"
+  },
+
+  "AdminProductTypePage": {
+    "breadcrumbProducts": "Products",
+    "breadcrumbNewType": "New Type",
+
+    "title": "Create",
+    "titleAccent": "Product Type",
+    "subtitle": "Define a new product category and its properties",
+
+    "basicInfoSection": "01 — Basic Info",
+    "basicInfoTitle": "Type Details",
+    "basicInfoDescription": "Name of the product category (e.g. Hoodie, T-Shirt, Cap)",
+
+    "typeName": "Type Name",
+    "typeNamePlaceholder": "e.g. Hoodie",
+    "required": "*",
+
+    "settingsSection": "02 — Settings",
+    "settingsTitle": "Type Flags",
+    "settingsDescription": "Configure sizing and thread color options",
+
+    "hasSizesTitle": "Has Sizes",
+    "hasSizesDescription": "Product comes in multiple sizes",
+
+    "hasThreadColorTitle": "Has Thread Color",
+    "hasThreadColorDescription": "Product supports embroidery thread color",
+
+    "sizes": "Sizes",
+    "sizesPlaceholder": "XS, S, M, L, XL, 2XL",
+    "sizesHint": "Comma-separated list of allowed sizes.",
+
+    "mediaSection": "03 — Media",
+    "mediaTitle": "Image Placements",
+    "mediaDescription": "Select which views are available for this product type",
+
+    "placementFront": "Front",
+    "placementBack": "Back",
+    "placementLeftSleeve": "Left Sleeve",
+    "placementRightSleeve": "Right Sleeve",
+    "placementSide": "Side",
+
+    "ready": "Ready to create —",
+    "readyHighlight": "fill in the required fields",
+
+    "discard": "Discard",
+    "createType": "Create Type",
+
+    "success": "The type was created successfully",
+    "error": "Failed to create the type"
+  },
+  "AdminPricingPage": {
+    "eyebrow": "Configuration",
+    "title": "Pricing Settings",
+    "subtitle": "Manage prices for customization (in EGP)",
+    "notWiredWarning": "Saving is not yet wired to the database — changes will not persist.",
+    "customizationPricingTitle": "Customization Pricing",
+    "pricePerSide": "Price Per Side",
+    "pricePerSideHint": "Price charged per side customized (front, back, left sleeve, right sleeve)",
+    "exampleLabel": "Example:",
+    "exampleText": "If a customer customizes {sides} sides at {price} EGP per side, they pay an additional {total} EGP",
+    "summaryTitle": "Current Pricing Summary",
+    "summaryPerSide": "Customization per side:",
+    "summaryMax": "Max customization (4 sides):",
+    "saveChanges": "Save Changes",
+    "saving": "Saving…",
+    "saved": "Saved"
+  },
+
+  "AdminSingleUserPage": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "deactivate": "Deactivate",
+    "activate": "Activate",
+    "updating": "Updating...",
+    "viewOrders": "View Orders",
+    "statsTotalOrders": "Total Orders",
+    "statsPending": "Pending",
+    "statsCancelled": "Cancelled",
+    "statsTotalSpent": "Total Spent",
+    "userInfoTitle": "User Information",
+    "fullName": "Full Name",
+    "phone": "Phone",
+    "joined": "Joined",
+    "notAvailable": "N/A",
+    "recentOrdersTitle": "Recent Orders",
+    "viewAll": "View all",
+    "noOrders": "No orders found",
+    "orderId": "Order ID",
+    "date": "Date",
+    "status": "Status",
+    "total": "Total",
+    "currency": "EGP"
+  },
+  "AdminSingleProductPage": {
+    "editProduct": "Edit Product",
+    "productDetailsTitle": "Product Details",
+    "name": "Name",
+    "description": "Description",
+    "notAvailable": "N/A",
+    "price": "Price",
+    "type": "Type",
+    "active": "Active",
+    "inactive": "Inactive",
+    "studioMode": "Studio Mode",
+    "featured": "Featured",
+    "yes": "Yes",
+    "no": "No",
+    "productImagesTitle": "Product Images",
+    "noImages": "No images uploaded",
+    "color": "Color",
+    "place": "Place",
+    "variantsTitle": "Variants",
+    "variantColor": "Color",
+    "variantSize": "Size",
+    "stock": "Stock",
+    "variantPrice": "Price",
+    "defaultPrice": "Default",
+    "noVariants": "No variants added",
+    "productNotFound": "Product not found.",
+    "currency": "EGP"
+  },
+  "AdminSingleOrderPage": {
+    "orderReceipt": "Order Receipt",
+    "orderNotFound": "Order not found",
+    "customer": "Customer",
+    "name": "Name",
+    "email": "Email",
+    "userId": "User ID",
+    "payment": "Payment",
+    "subtotal": "Subtotal",
+    "currencyLabel": "Currency",
+    "total": "Total",
+    "items": "Items ({count})",
+    "unknownProduct": "Unknown Product",
+    "qty": "Qty: {count}",
+    "variant": "Variant",
+    "priceBreakdown": "Price Breakdown",
+    "basePrice": "Base price:",
+    "customizationLine": "Customization:",
+    "addOnsLine": "Add-ons:",
+    "unitPrice": "Unit price:",
+    "viewDesign": "View Design",
+    "viewAddOns": "View Add-ons",
+    "notAvailable": "N/A",
+    "currency": "EGP"
+  },
+  "AdminOrderModal": {
+    "customizationPreview": "Customization preview",
+    "noCustomization": "No customization found",
+    "customizationLabel": "Customization",
+    "previewLabel": "Preview",
+    "download": "Download",
+    "exporting": "Exporting…",
+    "downloading": "Downloading…",
+    "customerUpload": "Customer Upload",
+    "customerUploads": "Customer Uploads",
+    "customerFile": "Customer file",
+    "layers": "Layers ({count})",
+    "close": "Close",
+    "productImageAlt": "Product",
+    "customerUploadAlt": "Customer upload {index}",
+    "customerUploadZoomedAlt": "Customer upload zoomed"
+  },
+  "AdminOrderCustomizationPreview": {
+    "noCustomization": "No customization for this product.",
+    "front": "Front",
+    "back": "Back",
+    "rightSleeve": "Right Sleeve",
+    "leftSleeve": "Left Sleeve"
+  }
+}

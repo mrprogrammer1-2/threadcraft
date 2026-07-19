@@ -1,0 +1,778 @@
+{
+  "NavBar": {
+    "gallery": "معرض الأعمال",
+    "process": "كيف نعمل",
+    "about": "من نحن",
+    "shop": "المتجر",
+    "login": "تسجيل الدخول",
+    "register": "إنشاء حساب",
+    "loading": "جارٍ التحميل...",
+    "profile": "الملف الشخصي",
+    "adminDashboard": "لوحة التحكم",
+    "logout": "تسجيل الخروج"
+  },
+  "Hero": {
+    "eyebrow": "منذ ٢٠٢٦ — تطريز يدوي بلمسة احترافية",
+    "headingLine1": "ارتدِ قصتك",
+    "headingEm": "بخيط من ذهب",
+    "body": "ارفع تصميمك، اختر قطعتك، ونحن نطرّزها لك بدقة متناهية — غرزةً بغرزة، خيطاً بخيط.",
+    "ctaPrimary": "ابدأ التخصيص",
+    "ctaSecondary": "استعرض الأعمال",
+    "badgeEmbroidered": "تطريز يدوي ١٠٠٪",
+    "badgeShipping": "التوصيل خلال ٥–٧ أيام"
+  },
+  "HowItWorks": {
+    "eyebrow": "كيف نعمل",
+    "step1Title": "اختر قطعتك",
+    "step1Desc": "تصفّح مجموعتنا المختارة من القمصان والهوديز والقبعات والحقائب وغيرها — كل قطعة جاهزة للتطريز ومغسولة مسبقاً.",
+    "step2Title": "ارفع تصميمك",
+    "step2Desc": "ارفع صورتك أو شعارك أو نصّك، وسيحوّله نظامنا إلى نمط غرز احترافي — أو اختر من مكتبة الزخارف المنتقاة.",
+    "step3Title": "نطرّزها لك",
+    "step3Desc": "يراجع حرفيّونا كل طلب ويطرّزون تصميمك بآلات احترافية مع أكثر من ٤٠ لون خيط متاح.",
+    "step4Title": "تصلك إلى بابك",
+    "step4Desc": "تصل قطعتك المخصّصة في تغليف Threadcraft المميّز خلال ٥–٧ أيام عمل، جاهزة للارتداء أو الإهداء."
+  },
+  "WhyChooseUs": {
+    "eyebrow": "ما الذي يميّزنا",
+    "headingLine1": "لماذا تختار",
+    "headingEm": "Threadcraft",
+    "reason1Title": "جودة يدوية لا تُضاهى",
+    "reason1Desc": "كل قطعة تمرّ بمراجعة يدوية دقيقة لتضمن أن تصميمك يبدو رائعاً ويدوم طويلاً.",
+    "reason1Detail": "غرز محكمة، وخيوط فاخرة، وعناية حرفية في كل طلب.",
+    "reason2Title": "توصيل سريع",
+    "reason2Desc": "تطريز مخصّص يصلك خلال ٥–٧ أيام، مع تتبّع الشحنة وتغليف فاخر.",
+    "reason2Detail": "من رفع التصميم حتى التسليم، نُبقي طلبك في حركة دون التسرّع في الإنجاز.",
+    "reason3Title": "دعم تصميم شخصي",
+    "reason3Desc": "تحتاج مساعدة في تجهيز التصميم أو اختيار الألوان؟ فريقنا معك في كل خطوة.",
+    "reason3Detail": "ارفع تصميمك، أو اطلب مراجعته قبل أن نبدأ التطريز.",
+    "learnMore": "اعرف المزيد"
+  },
+  "StudioGallery": {
+    "eyebrow": "أعمال يدوية",
+    "headingThe": "",
+    "headingStudio": "معرض",
+    "headingGallery": "الأعمال",
+    "empty": "لا توجد صور بعد",
+    "stitchLabel": "كل غرزة توضع باليد",
+    "lightboxClose": "إغلاق ✕",
+    "lightboxHint": "انقر خارج الصورة للإغلاق"
+  },
+  "FeaturedPieces": {
+    "eyebrow": "مختارة خصيصاً لك",
+    "headingLine1": "القطع",
+    "headingEm": "المميّزة",
+    "errorLoading": "تعذّر تحميل المنتجات المميّزة"
+  },
+  "Footer": {
+    "brandName": "Hoodify",
+    "tagline": "تطريز مخصّص لقصص شخصية، وعلامات صغيرة، وقطع فريدة من نوعها.",
+    "exploreTitle": "استكشف",
+    "shop": "المتجر",
+    "gallery": "معرض الأعمال",
+    "process": "كيف نعمل",
+    "about": "من نحن",
+    "contactTitle": "تواصل معنا",
+    "email": "hello@hoodify.com",
+    "shippingNote": "التوصيل خلال ٥–٧ أيام للطلبات المطرّزة",
+    "craftedNote": "صُنع بعناية في ٢٠٢٦",
+    "copyright": "Hoodify. جميع الحقوق محفوظة."
+  },
+  "ProductCard": {
+    "bestseller": "الأكثر مبيعاً",
+    "addYourDesign": "أضف تصميمك",
+    "addToCart": "أضف إلى السلة",
+    "chooseOptions": "اختر المواصفات",
+    "view": "عرض"
+  },
+  "ProcessPage": {
+    "heroEyebrow": "كيف نعمل",
+    "heroTitleLine1": "من فكرة",
+    "heroTitleLine2": "إلى",
+    "heroTitleItalic": "واقع",
+    "heroTitleLine3": "مطرّز",
+    "heroBody": "كل قطعة من Threadcraft تمرّ برحلة من أربع خطوات — من أول نقرة حتى لحظة وصولها إلى بابك، منتهية يدوياً وجاهزة للارتداء.",
+    "stats": [
+      { "num": "٥–٧", "label": "أيام للتوصيل" },
+      { "num": "+٤٠", "label": "لون خيط" },
+      { "num": "١٠٠٪", "label": "تطريز يدوي" },
+      { "num": "٠", "label": "حدّ أدنى للطلب" }
+    ],
+    "steps": [
+      {
+        "label": "اختيار القطعة",
+        "title": "اختر قطعتك",
+        "desc": "تصفّح مجموعتنا المختارة من القطع الجاهزة للتطريز — مغسولة ومقلَّصة مسبقاً، ومنتقاة لجودة تماسكها مع الغرز.",
+        "details": [
+          "هوديز، سويت شيرت، تي شيرت، قبعات، حقائب قماشية وغيرها",
+          "ألوان متعددة لكل قطعة، معروضة بصور حقيقية للمنتج",
+          "جميع القطع بجودة تناسب التطريز — لا قطع رخيصة",
+          "دليل المقاسات متوفر في كل صفحة منتج"
+        ]
+      },
+      {
+        "label": "استوديو التصميم",
+        "title": "صمّم في الاستوديو",
+        "desc": "افتح استوديو التصميم المباشر وضع تطريزك بالضبط حيث تريد. اسحب، غيّر الحجم، وعاين النتيجة لحظياً.",
+        "details": [
+          "اختر من مكتبة الزخارف المنتقاة — شمس، مرساة، أمواج وغيرها",
+          "ارفع شعارك أو تصميمك الخاص (PNG أو SVG أو JPG حتى ٢٠ ميغابايت)",
+          "أضف نصاً مخصصاً بعدة أنماط خطوط",
+          "اختر من أكثر من ٤٠ لون خيط، لكل طبقة على حدة"
+        ]
+      },
+      {
+        "label": "الإنتاج",
+        "title": "نقوم بتطريزها",
+        "desc": "يراجع حرفيّونا كل طلب على حدة. يتم تحويل تصميمك رقمياً إلى ملف غرز، ثم تطريزه بآلات احترافية.",
+        "details": [
+          "كل طلب يراجعه شخص قبل بدء الإنتاج",
+          "آلات تطريز احترافية — وليس طباعة أو نقل حراري",
+          "الشعارات المعقّدة تُحوَّل رقمياً يدوياً لدقة الغرز",
+          "فحص جودة قبل التغليف — لا نشحن قطعاً بها عيوب"
+        ]
+      },
+      {
+        "label": "التوصيل",
+        "title": "تصلك إلى بابك",
+        "desc": "تصل قطعتك في تغليفنا المميّز خلال ٥–٧ أيام عمل. جاهزة للارتداء أو الإهداء أو الإرسال مباشرة لفريقك.",
+        "details": [
+          "٥–٧ أيام عمل من تأكيد الطلب",
+          "تغليف Threadcraft المميّز — هدية رائعة",
+          "الشحن لجميع أنحاء العالم مع تتبّع لكل طلب",
+          "طلبات الجملة للفرق والشركات — تواصل معنا للتسعير"
+        ]
+      }
+    ],
+    "guarantees": [
+      {
+        "num": "١٠٠٪",
+        "title": "ضمان الرضا التام",
+        "desc": "إذا وصلت قطعتك بها عيب أو لا تطابق تصميمك، نعيد تنفيذها — دون أي أسئلة أو رسوم إضافية."
+      },
+      {
+        "num": "حقيقي",
+        "title": "تطريز، وليس طباعة",
+        "desc": "كل تصميم يُغرَز مباشرة داخل القماش. لا يتقشّر ولا يتلاشى ولا يتشقّق — يدوم أطول من القطعة نفسها."
+      },
+      {
+        "num": "مجاني",
+        "title": "تعديلات قبل الإنتاج",
+        "desc": "نرسل معاينة رقمية قبل بدء التطريز. توافق عليها — ثم نبدأ الغرز."
+      }
+    ],
+    "faqEyebrow": "أسئلة شائعة",
+    "faqTitle": "الأسئلة الشائعة",
+    "faqs": [
+      {
+        "q": "ما صيغ الملفات التي يمكنني رفعها؟",
+        "a": "PNG وSVG وJPG حتى ٢٠ ميغابايت. للحصول على أفضل نتيجة، استخدم PNG بخلفية شفافة أو ملف SVG نظيف. تجنّب الصور منخفضة الدقة — فجودة التطريز مرتبطة بجودة ملفك."
+      },
+      {
+        "q": "كم يستغرق الإنتاج؟",
+        "a": "من ٥ إلى ٧ أيام عمل من لحظة تقديم الطلب. تتوفر طلبات مستعجلة — تواصل معنا قبل الطلب وسنؤكد الإتاحة."
+      },
+      {
+        "q": "هل يمكنني الطلب لفريقي أو شركتي؟",
+        "a": "نعم. ننفّذ طلبات الجملة للزي الموحّد للشركات، والفرق الرياضية، والعيادات، والمنتجات ذات العلامة التجارية. تواصل معنا للتسعير — طلبات الجملة تحصل على خصم."
+      },
+      {
+        "q": "ماذا لو لم تعجبني النتيجة؟",
+        "a": "نرسل معاينة رقمية قبل الإنتاج. وإذا وصلت القطعة النهائية بها عيب أو لا تطابق ما وافقت عليه، نعيد تنفيذها دون أي تكلفة."
+      },
+      {
+        "q": "هل تشحنون دولياً؟",
+        "a": "نعم — نشحن لجميع أنحاء العالم. تختلف مدة التوصيل والتكلفة حسب الوجهة، وتظهر عند الدفع قبل إتمام الطلب."
+      },
+      {
+        "q": "هل يمكنني التطريز على قطعة أملكها بالفعل؟",
+        "a": "ليس بعد — نطرّز فقط على القطع من مجموعتنا الخاصة. هذا يضمن توافق القماش مع آلاتنا ونتائج ثابتة الجودة."
+      }
+    ],
+    "stitchLabel": "كل غرزة توضع باليد",
+    "ctaLine1": "جاهز لصنع",
+    "ctaLine2": "شيء",
+    "ctaItalic": "يخصّك؟",
+    "ctaButton": "ابدأ التخصيص ←"
+  },
+  "GalleryPage": {
+    "eyebrow": "أعمالنا",
+    "titleItalic": "معرض",
+    "titleLine2": "الاستوديو",
+    "subtitle": "كل قطعة مطرّزة يدوياً، وكل غرزة توضع بعناية.",
+    "piecesCrafted": "قطعة تم صنعها",
+    "filters": {
+      "all": "الكل",
+      "hoodie": "هوديز",
+      "tshirt": "تي شيرت",
+      "sweatshirt": "سويت شيرت",
+      "cap": "قبعات",
+      "totebag": "حقائب قماشية",
+      "uniform": "زي موحّد",
+      "medical": "طبي"
+    },
+    "emptyTitle": "لا توجد قطع في هذا التصنيف بعد",
+    "emptySubtitle": "تفقّد الصفحة قريباً",
+    "viewAll": "عرض كل القطع",
+    "stitchLabel": "كل غرزة توضع باليد",
+    "lightboxClose": "إغلاق ✕",
+    "galleryImageAlt": "قطعة من المعرض"
+  },
+  "AboutPage": {
+    "eyebrow": "من نحن",
+    "headingLine1": "تطريز يدوي",
+    "headingEm": "لكل قصة.",
+    "intro": "في Threadcraft، نحوّل أحلامك في خزانة الملابس إلى واقع بتطريز يحمل لمسة شخصية ومقصودة وراقية. كل قطعة نصمّمها مستلهمين خاماتها وألوانها من روح الحرفية الحديثة.",
+    "pillars": [
+      {
+        "label": "مهمتنا",
+        "title": "نرتقي بالأساسيات اليومية.",
+        "body": "نصنع ملابس مطرّزة تحوّل القطع البسيطة إلى تعبير ذو معنى. من الشعارات المخصّصة إلى تفاصيل الخيط الفريدة، عملنا مصمّم ليُرتدى ويُعتز به ويُشارَك."
+      },
+      {
+        "label": "طريقة عملنا",
+        "title": "يُصنع غرزة بغرزة.",
+        "body": "يبدأ كل تصميم بتفكير متأنٍ، يليه تطريز دقيق ومراجعة جودة. نجمع بين التقنية التقليدية والأسلوب العصري كي تبدو النتيجة خالدة ومنعشة في آنٍ واحد."
+      },
+      {
+        "label": "وعدنا",
+        "title": "مصنوع ليدوم.",
+        "body": "من الأقمشة الفاخرة إلى الخيوط المتينة، نفخر بنتائج تبدو جميلة وتصمد أمام الاستخدام. يُنجز طلبك المخصّص بعناية ودقة واهتمام بأدق التفاصيل."
+      }
+    ],
+    "whyEyebrow": "لماذا Threadcraft",
+    "whyParagraph1": "نؤمن بأن الملابس ذات المعنى يجب أن تكون شخصية لا عامة. وهذا يعني الإصغاء لقصتك، وصقل التصميم، وتسليم قطعة نهائية تحمل طابعك بلا لبس.",
+    "whyParagraph2": "سواء أردت شعاراً مخصصاً، أو نصاً مطرّزاً، أو مظهراً مصمماً بالكامل حسب طلبك، استوديونا مبني ليجعل رؤيتك تتحقق بسهولة وبتنفيذ متقن.",
+    "valuesEyebrow": "قيمنا",
+    "values": [
+      {
+        "title": "حرفية متأنية",
+        "body": "كل غرزة تُختار بعناية، وكل قطعة تُنجز بروح الجودة."
+      },
+      {
+        "title": "خدمة شخصية",
+        "body": "نساعدك على تحقيق فكرتك بعملية بسيطة وتعاون وثيق."
+      },
+      {
+        "title": "تفاصيل مستدامة",
+        "body": "منتجات تدوم طويلاً، مصنوعة بعناية من خامات أفضل وإنتاج واعٍ."
+      }
+    ],
+    "ctaEyebrow": "انضم إلى الاستوديو",
+    "ctaTitle": "جاهز لبدء قطعتك المخصّصة القادمة؟",
+    "ctaBody": "سواء كنت تصمّم لفريق، أو علامة تجارية، أو مجموعة شخصية، نحن هنا لنجعلها لا تُنسى.",
+    "ctaShop": "تسوّق المجموعة",
+    "ctaGallery": "استكشف المعرض"
+  },
+  "ShopPage": {
+    "eyebrow": "مجموعتنا",
+    "title": "تسوّق كل المنتجات",
+    "all": "الكل",
+    "noProducts": "لا توجد منتجات."
+  },
+  "CartPage": {
+    "title": "سلة التسوّق",
+    "itemCount": "{count, plural, =1 {قطعة واحدة} =2 {قطعتان} few {# قطع} many {# قطعة} other {# قطعة}}",
+    "emptyMessage": "سلتك فارغة.",
+    "continueShopping": "متابعة التسوّق",
+    "orderSummary": "ملخص الطلب",
+    "subtotal": "المجموع الفرعي",
+    "items": "القطع",
+    "total": "الإجمالي",
+    "checkout": "متابعة الدفع",
+    "clearCart": "إفراغ السلة",
+    "clearModalTitle": "إفراغ السلة؟",
+    "clearModalBody": "هل أنت متأكد من رغبتك في إزالة جميع القطع من سلتك؟ لا يمكن التراجع عن هذا الإجراء.",
+    "cancel": "إلغاء",
+    "size": "المقاس",
+    "color": "اللون",
+    "priceEach": "{price} جنيه للقطعة",
+    "remove": "إزالة",
+    "currency": "جنيه"
+  },
+  "ProfilePage": {
+    "eyebrow": "الحساب",
+    "title": "ملفي الشخصي",
+    "editProfile": "تعديل الملف الشخصي",
+    "accountInformation": "معلومات الحساب",
+    "firstName": "الاسم الأول",
+    "lastName": "اسم العائلة",
+    "email": "البريد الإلكتروني",
+    "phone": "رقم الهاتف",
+    "saveChanges": "حفظ التغييرات",
+    "cancel": "إلغاء",
+    "notProvided": "—",
+    "recentOrders": "الطلبات الأخيرة",
+    "noOrders": "لا توجد طلبات بعد.",
+    "loading": "جارٍ التحميل…",
+    "currency": "جنيه",
+    "loadOrderError": "تعذّر تحميل تفاصيل الطلب. حاول مرة أخرى.",
+    "statuses": {
+      "pending": "قيد الانتظار",
+      "processing": "قيد التجهيز",
+      "shipped": "تم الشحن",
+      "delivered": "تم التسليم",
+      "cancelled": "ملغى"
+    },
+    "orderModal": {
+      "title": "تفاصيل الطلب",
+      "status": "الحالة",
+      "date": "التاريخ",
+      "currency": "العملة",
+      "total": "الإجمالي",
+      "items": "القطع",
+      "qty": "الكمية",
+      "each": "للقطعة",
+      "unknownProduct": "منتج غير معروف",
+      "customization": "التخصيص",
+      "addOns": "الإضافات",
+      "close": "إغلاق"
+    }
+  },
+  "AdminSidebar": {
+    "brand": "Threadcraft",
+    "applicationLabel": "التطبيق",
+    "productsLabel": "المنتجات",
+    "configurationLabel": "الإعدادات",
+    "nav": {
+      "dashboard": "لوحة التحكم",
+      "users": "المستخدمون",
+      "products": "المنتجات",
+      "orders": "الطلبات",
+      "designs": "التصاميم"
+    },
+    "addProduct": "إضافة منتج",
+    "newType": "نوع جديد",
+    "pricing": "التسعير",
+    "admin": "المسؤول",
+    "account": "الحساب",
+    "logout": "تسجيل الخروج"
+  },
+  "AdminNavbar": {
+    "brand": "Threadcraft",
+    "applicationLabel": "التطبيق",
+    "productsLabel": "المنتجات",
+    "configurationLabel": "الإعدادات",
+    "nav": {
+      "dashboard": "لوحة التحكم",
+      "users": "المستخدمون",
+      "products": "المنتجات",
+      "orders": "الطلبات",
+      "designs": "التصاميم",
+      "pricing": "التسعير"
+    },
+    "addProduct": "إضافة منتج",
+    "newType": "نوع جديد",
+    "pricing": "التسعير",
+    "admin": "المسؤول",
+    "account": "الحساب",
+    "profile": "الملف الشخصي",
+    "settings": "الإعدادات",
+    "logout": "تسجيل الخروج"
+  },
+  "AdminDashboard": {
+    "eyebrow": "نظرة عامة",
+    "title": "لوحة التحكم",
+    "stats": {
+      "totalUsers": "إجمالي المستخدمين",
+      "totalProducts": "إجمالي المنتجات",
+      "pendingOrders": "الطلبات المعلّقة",
+      "completedOrders": "الطلبات المكتملة"
+    },
+    "recentUsers": "أحدث المستخدمين",
+    "recentProducts": "أحدث المنتجات",
+    "viewAll": "عرض الكل ←",
+    "noUsers": "لا يوجد مستخدمون بعد",
+    "noProducts": "لا توجد منتجات بعد",
+    "currency": "جنيه"
+  },
+  "AdminUsersPage": {
+    "eyebrow": "الإدارة",
+    "title": "كل المستخدمين"
+  },
+  "AdminProductsPage": {
+    "eyebrow": "الإدارة",
+    "title": "كل المنتجات"
+  },
+  "AdminProductsTable": {
+    "image": "الصورة",
+    "name": "الاسم",
+    "price": "السعر",
+    "createdAt": "تاريخ الإنشاء",
+    "rowsPerPage": "الصفوف لكل صفحة",
+    "pageInfo": "الصفحة {page} من {count}",
+    "goToFirstPage": "الذهاب إلى الصفحة الأولى",
+    "goToPreviousPage": "الذهاب إلى الصفحة السابقة",
+    "goToNextPage": "الذهاب إلى الصفحة التالية",
+    "goToLastPage": "الذهاب إلى الصفحة الأخيرة"
+  },
+
+  "AdminUsersTable": {
+    "selectAll": "تحديد الكل",
+    "selectRow": "تحديد الصف",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "noName": "—"
+  },
+  "AdminProductsColumns": {
+    "selectAll": "تحديد الكل",
+    "selectRow": "تحديد الصف",
+    "image": "الصورة",
+    "productAlt": "منتج",
+    "name": "الاسم",
+    "price": "السعر",
+    "createdAt": "تاريخ الإنشاء",
+    "invalidDate": "تاريخ غير صالح",
+    "openMenu": "فتح القائمة",
+    "actions": "الإجراءات",
+    "copyId": "نسخ رقم الدفع",
+    "viewProduct": "عرض المنتج",
+    "delete": "حذف"
+  },
+
+  "AdminOrdersPage": {
+    "eyebrow": "الإدارة",
+    "title": "كل الطلبات",
+    "showingOrdersFor": "عرض الطلبات الخاصة بـ"
+  },
+  "AdminOrdersColumns": {
+    "selectAll": "تحديد الكل",
+    "selectRow": "تحديد الصف",
+    "orderId": "رقم الطلب",
+    "userId": "رقم المستخدم",
+    "customerName": "اسم العميل",
+    "status": "الحالة",
+    "statuses": {
+      "cart": "سلة",
+      "pending": "قيد الانتظار",
+      "processing": "قيد التجهيز",
+      "shipped": "تم الشحن",
+      "delivered": "تم التسليم",
+      "cancelled": "ملغى"
+    },
+    "items": "القطع",
+    "total": "الإجمالي",
+    "createdAt": "تاريخ الإنشاء",
+    "invalidDate": "تاريخ غير صالح",
+    "noDate": "—",
+    "openMenu": "فتح القائمة",
+    "actions": "الإجراءات",
+    "copyOrderId": "نسخ رقم الطلب",
+    "viewOrder": "عرض الطلب",
+    "viewUser": "عرض المستخدم",
+    "delete": "حذف"
+  },
+  "AdminOrdersTable": {
+    "rowsPerPage": "الصفوف لكل صفحة",
+    "pageInfo": "الصفحة {page} من {count}",
+    "goToFirstPage": "الذهاب إلى الصفحة الأولى",
+    "goToPreviousPage": "الذهاب إلى الصفحة السابقة",
+    "goToNextPage": "الذهاب إلى الصفحة التالية",
+    "goToLastPage": "الذهاب إلى الصفحة الأخيرة",
+    "rowsSelected": "تم تحديد {selected} من {total} صف."
+  },
+  "AdminDataTable": {
+    "deleting": "جارٍ الحذف...",
+    "deleteSelected": "حذف",
+    "noResults": "لا توجد نتائج."
+  },
+  "AdminDesignsPage": {
+    "eyebrow": "مكتبة الاستوديو",
+    "title": "مكتبة التصاميم",
+    "subtitle": "زخارف وأصول مختارة للطلبات والمنتجات واستوديو العملاء.",
+    "addDesign": "إضافة تصميم",
+    "totalDesigns": "إجمالي التصاميم",
+    "latestUpdate": "آخر تحديث",
+    "latestUpdateDesc": "إدارة أصول PNG وSVG بمعاينات أنيقة.",
+    "noDesignsTitle": "لا توجد تصاميم بعد",
+    "noDesignsSubtitle": "أضف أول تصميم لجعله متاحاً في الاستوديو.",
+    "svgMotifs": "زخارف SVG",
+    "pngDesigns": "تصاميم PNG",
+    "modalTitle": "إضافة تصميم",
+    "svgMotifTab": "زخرفة SVG",
+    "pngDesignTab": "تصميم PNG",
+    "labelField": "الاسم",
+    "labelPlaceholder": "مثال: تنين",
+    "keyField": "المفتاح",
+    "keyHint": "(يُحفظ في الطلبات، لا تغيّره بعد الإطلاق)",
+    "keyPlaceholder": "مثال: dragon",
+    "svgPathsField": "مسارات SVG",
+    "svgPathsHint": "(المحتوى الداخلي فقط، بدون غلاف <svg>)",
+    "livePreview": "معاينة مباشرة",
+    "uploadPng": "رفع ملف PNG",
+    "remove": "إزالة",
+    "clickToUpload": "انقر للرفع",
+    "uploadingCloudinary": "جارٍ الرفع إلى Cloudinary…",
+    "save": "حفظ التصميم",
+    "saving": "جارٍ الحفظ…",
+    "deleteDesign": "حذف التصميم",
+    "closeModal": "إغلاق"
+  },
+  "AdminProductFormPage": {
+    "breadcrumbProducts": "المنتجات",
+    "breadcrumbNew": "منتج جديد",
+    "heroCreate": "إنشاء",
+    "heroProduct": "منتج",
+    "heroSubtitle": "أضف عنصراً جديداً إلى الكتالوج",
+    "stepInfo": "معلومات",
+    "stepImages": "الصور",
+    "stepVariants": "المواصفات",
+    "section01": "٠١ — معلومات أساسية",
+    "productDetailsTitle": "تفاصيل المنتج",
+    "productDetailsSubtitle": "الاسم والسعر وتصنيف المنتج",
+    "productNameLabel": "اسم المنتج",
+    "productNamePlaceholder": "مثال: هوديز الاستوديو",
+    "descriptionLabel": "الوصف",
+    "descriptionPlaceholder": "صف المنتج...",
+    "basePriceLabel": "السعر الأساسي (جنيه)",
+    "basePriceHint": "يمكن للمواصفات تجاوز هذا السعر",
+    "productTypeLabel": "نوع المنتج",
+    "section02": "٠٢ — الإعدادات",
+    "productFlagsTitle": "خصائص المنتج",
+    "productFlagsSubtitle": "التحكم في خيارات الظهور",
+    "featuredTitle": "مميّز",
+    "featuredDesc": "إظهار في قسم الصفحة الرئيسية",
+    "section03": "٠٣ — الاستوديو",
+    "customizationModeTitle": "وضع التخصيص",
+    "customizationModeSubtitle": "كيف يتفاعل العملاء مع هذا المنتج",
+    "modeReadyTitle": "جاهز",
+    "modeReadyDesc": "بدون تخصيص — يُباع كما هو",
+    "modeFreeTitle": "استوديو حر",
+    "modeFreeDesc": "يضع العميل التصاميم والنصوص والملفات بحرية في أي مكان",
+    "modeTemplateTitle": "قالب",
+    "modeTemplateDesc": "منتج مصمّم مسبقاً — يُدخل العميل اسمه فقط في موضع ثابت",
+    "uploadFrontWarning": "ارفع صورة \"أمامية\" في قسم الوسائط أدناه أولاً — ستتمكن من وضع الاسم والتصميم مباشرة عليها هنا بدلاً من تخمين الإحداثيات.",
+    "namePositionTitle": "موضع الاسم",
+    "namePositionSubtitle": "أين سيظهر اسم العميل على القطعة",
+    "nameplatePositionLabel": "موضع لوحة الاسم",
+    "widthPxLabel": "العرض (بكسل)",
+    "fontLabel": "الخط",
+    "threadColorLabel": "لون الخيط",
+    "selectedColor": "المحدد: {color}",
+    "placeholderTextLabel": "نص العنصر النائب",
+    "yourNamePlaceholder": "اسمك",
+    "placeholderHint": "يظهر في حقل الإدخال قبل أن يبدأ العميل بالكتابة",
+    "baseDesignTitle": "التصميم الأساسي",
+    "baseDesignSubtitle": "تصميم ثابت اختياري موجود مسبقاً على القطعة",
+    "addBaseDesign": "إضافة تصميم أساسي",
+    "designLabel": "التصميم",
+    "selectDesignPlaceholder": "اختر تصميماً...",
+    "baseDesignPositionLabel": "موضع التصميم الأساسي",
+    "designMarkerText": "تصميم",
+    "section04": "٠٤ — الوسائط",
+    "productImagesTitle": "صور المنتج",
+    "productImagesSubtitle": "ارفع الصور وحدد لكل منها موضع العرض",
+    "dropImages": "اسحب الصور هنا أو انقر للرفع",
+    "imageHint": "PNG · JPG · WEBP — بحد أقصى ١٠ ميغابايت لكل صورة",
+    "placementFront": "أمامي",
+    "placementBack": "خلفي",
+    "placementLeftSleeve": "الكم الأيسر",
+    "placementRightSleeve": "الكم الأيمن",
+    "colorOptionalPlaceholder": "اللون (اختياري)",
+    "section05": "٠٥ — المواصفات",
+    "productVariantsTitle": "مواصفات المنتج",
+    "productVariantsSubtitle": "حدّد كل الألوان والمقاسات وكميات المخزون المتاحة",
+    "colColor": "اللون",
+    "colSize": "المقاس",
+    "colStock": "المخزون",
+    "colPrice": "السعر",
+    "colorPlaceholder": "اللون",
+    "stockPlaceholder": "المخزون",
+    "pricePlaceholder": "السعر",
+    "addVariant": "إضافة مواصفة",
+    "readyToCreate": "جاهز للإنشاء —",
+    "fillRequiredFields": "املأ الحقول المطلوبة",
+    "discard": "تجاهل",
+    "createProduct": "إنشاء المنتج",
+    "toastSuccess": "تم إنشاء المنتج بنجاح",
+    "toastError": "فشل إنشاء المنتج",
+    "fonts": {
+      "playfairItalic": "بلايفير مائل",
+      "cormorant": "كورمورانت",
+      "dmMono": "دي إم مونو"
+    },
+    "threadColors": {
+      "sienna": "سيينا",
+      "gold": "ذهبي",
+      "ivory": "عاجي",
+      "navy": "كحلي",
+      "black": "أسود",
+      "sage": "أخضر مريمية",
+      "burgundy": "عنّابي"
+    }
+  },
+  "PositionPicker": {
+    "instructionLabel": "{label} — انقر في أي مكان على القطعة أو اسحب المؤشر",
+    "uploadPrompt": "ارفع صورة \"أمامية\" أعلاه لمعاينة الموضع هنا",
+    "positionInfo": "أعلى: {top}٪ · يسار: {left}٪",
+    "dragMe": "اسحبني"
+  },
+
+  "AdminProductTypePage": {
+    "breadcrumbProducts": "المنتجات",
+    "breadcrumbNewType": "نوع جديد",
+
+    "title": "إنشاء",
+    "titleAccent": "نوع منتج",
+    "subtitle": "أنشئ فئة جديدة للمنتجات وحدد خصائصها",
+
+    "basicInfoSection": "01 — المعلومات الأساسية",
+    "basicInfoTitle": "تفاصيل النوع",
+    "basicInfoDescription": "اسم فئة المنتج (مثل هودي، تي شيرت، كاب)",
+
+    "typeName": "اسم النوع",
+    "typeNamePlaceholder": "مثال: هودي",
+    "required": "*",
+
+    "settingsSection": "02 — الإعدادات",
+    "settingsTitle": "خصائص النوع",
+    "settingsDescription": "قم بتحديد خيارات المقاسات ولون الخيط",
+
+    "hasSizesTitle": "يدعم المقاسات",
+    "hasSizesDescription": "يتوفر المنتج بمقاسات متعددة",
+
+    "hasThreadColorTitle": "يدعم لون الخيط",
+    "hasThreadColorDescription": "يمكن اختيار لون خيط التطريز",
+
+    "sizes": "المقاسات",
+    "sizesPlaceholder": "XS, S, M, L, XL, 2XL",
+    "sizesHint": "اكتب المقاسات مفصولة بفواصل.",
+
+    "mediaSection": "03 — الصور",
+    "mediaTitle": "أماكن الصور",
+    "mediaDescription": "حدد الزوايا والصور المتاحة لهذا النوع من المنتجات",
+
+    "placementFront": "الأمام",
+    "placementBack": "الخلف",
+    "placementLeftSleeve": "الكم الأيسر",
+    "placementRightSleeve": "الكم الأيمن",
+    "placementSide": "الجانب",
+
+    "ready": "جاهز للإنشاء —",
+    "readyHighlight": "أكمل الحقول المطلوبة",
+
+    "discard": "إلغاء",
+    "createType": "إنشاء النوع",
+
+    "success": "تم إنشاء نوع المنتج بنجاح",
+    "error": "فشل في إنشاء نوع المنتج"
+  },
+  "AdminPricingPage": {
+    "eyebrow": "الإعدادات",
+    "title": "إعدادات التسعير",
+    "subtitle": "إدارة أسعار التخصيص (بالجنيه المصري)",
+    "notWiredWarning": "الحفظ غير مرتبط بقاعدة البيانات بعد — لن يتم حفظ التغييرات.",
+    "customizationPricingTitle": "تسعير التخصيص",
+    "pricePerSide": "السعر لكل جهة",
+    "pricePerSideHint": "السعر المفروض لكل جهة يتم تخصيصها (أمامي، خلفي، كم أيسر، كم أيمن)",
+    "exampleLabel": "مثال:",
+    "exampleText": "إذا خصّص العميل {sides} جهات بسعر {price} جنيه لكل جهة، فسيدفع {total} جنيه إضافية",
+    "summaryTitle": "ملخص التسعير الحالي",
+    "summaryPerSide": "سعر التخصيص لكل جهة:",
+    "summaryMax": "أقصى تخصيص (٤ جهات):",
+    "saveChanges": "حفظ التغييرات",
+    "saving": "جارٍ الحفظ…",
+    "saved": "تم الحفظ"
+  },
+  "AdminSingleUserPage": {
+    "active": "نشط",
+    "inactive": "غير نشط",
+    "deactivate": "إلغاء التفعيل",
+    "activate": "تفعيل",
+    "updating": "جارٍ التحديث...",
+    "viewOrders": "عرض الطلبات",
+    "statsTotalOrders": "إجمالي الطلبات",
+    "statsPending": "قيد الانتظار",
+    "statsCancelled": "ملغاة",
+    "statsTotalSpent": "إجمالي الإنفاق",
+    "userInfoTitle": "معلومات المستخدم",
+    "fullName": "الاسم الكامل",
+    "phone": "رقم الهاتف",
+    "joined": "تاريخ الانضمام",
+    "notAvailable": "غير متوفر",
+    "recentOrdersTitle": "الطلبات الأخيرة",
+    "viewAll": "عرض الكل",
+    "noOrders": "لا توجد طلبات",
+    "orderId": "رقم الطلب",
+    "date": "التاريخ",
+    "status": "الحالة",
+    "total": "الإجمالي",
+    "currency": "جنيه"
+  },
+  "AdminSingleProductPage": {
+    "editProduct": "تعديل المنتج",
+    "productDetailsTitle": "تفاصيل المنتج",
+    "name": "الاسم",
+    "description": "الوصف",
+    "notAvailable": "غير متوفر",
+    "price": "السعر",
+    "type": "النوع",
+    "active": "نشط",
+    "inactive": "غير نشط",
+    "studioMode": "وضع الاستوديو",
+    "featured": "مميّز",
+    "yes": "نعم",
+    "no": "لا",
+    "productImagesTitle": "صور المنتج",
+    "noImages": "لا توجد صور مرفوعة",
+    "color": "اللون",
+    "place": "الموضع",
+    "variantsTitle": "المتغيّرات",
+    "variantColor": "اللون",
+    "variantSize": "المقاس",
+    "stock": "المخزون",
+    "variantPrice": "السعر",
+    "defaultPrice": "افتراضي",
+    "noVariants": "لا توجد متغيّرات",
+    "productNotFound": "المنتج غير موجود.",
+    "currency": "جنيه"
+  },
+  "AdminSingleOrderPage": {
+    "orderReceipt": "إيصال الطلب",
+    "orderNotFound": "الطلب غير موجود",
+    "customer": "العميل",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "userId": "رقم المستخدم",
+    "payment": "الدفع",
+    "subtotal": "المجموع الفرعي",
+    "currencyLabel": "العملة",
+    "total": "الإجمالي",
+    "items": "القطع ({count})",
+    "unknownProduct": "منتج غير معروف",
+    "qty": "الكمية: {count}",
+    "variant": "المواصفات",
+    "priceBreakdown": "تفصيل السعر",
+    "basePrice": "السعر الأساسي:",
+    "customizationLine": "التخصيص:",
+    "addOnsLine": "الإضافات:",
+    "unitPrice": "سعر القطعة:",
+    "viewDesign": "عرض التصميم",
+    "viewAddOns": "عرض الإضافات",
+    "notAvailable": "غير متوفر",
+    "currency": "جنيه"
+  },
+  "AdminOrderModal": {
+    "customizationPreview": "معاينة التخصيص",
+    "noCustomization": "لا يوجد تخصيص",
+    "customizationLabel": "التخصيص",
+    "previewLabel": "معاينة",
+    "download": "تنزيل",
+    "exporting": "جارٍ التصدير…",
+    "downloading": "جارٍ التنزيل…",
+    "customerUpload": "ملف العميل",
+    "customerUploads": "ملفات العميل",
+    "customerFile": "ملف العميل",
+    "layers": "الطبقات ({count})",
+    "close": "إغلاق",
+    "productImageAlt": "المنتج",
+    "customerUploadAlt": "ملف العميل {index}",
+    "customerUploadZoomedAlt": "ملف العميل مكبّر"
+  },
+  "AdminOrderCustomizationPreview": {
+    "noCustomization": "لا يوجد تخصيص لهذا المنتج.",
+    "front": "أمامي",
+    "back": "خلفي",
+    "rightSleeve": "الكم الأيمن",
+    "leftSleeve": "الكم الأيسر"
+  }
+}
