@@ -14,6 +14,7 @@ export const loadCartFromStorage = () => {
 };
 
 export const saveCartToStorage = (cartState: cartItem[]) => {
+  if (typeof window === "undefined") return;
   try {
     const serialized = JSON.stringify(cartState);
     localStorage.setItem("cart", serialized);

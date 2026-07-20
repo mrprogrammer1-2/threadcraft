@@ -38,9 +38,11 @@ export async function GET() {
         .where(eq(usersTable.kindeId, user.id));
     }
 
-    return NextResponse.redirect(
-      new URL(process.env.KINDE_SITE_URL || "http://localhost:3000"),
-    );
+    const siteUrl =
+      process.env.KINDE_SITE_URL ||
+      process.env.NEXT_PUBLIC_SITE_URL ||
+      "http://localhost:3000";
+    return NextResponse.redirect(new URL(siteUrl));
   } catch (error) {
     console.error("Auth success error:", error);
     return NextResponse.json(

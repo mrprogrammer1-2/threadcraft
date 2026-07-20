@@ -18,6 +18,7 @@ const store = configureStore({
   },
 });
 store.subscribe(() => {
+  if (typeof window === "undefined") return;
   const cartState = store.getState().cart;
   saveCartToStorage(cartState.items);
 });
