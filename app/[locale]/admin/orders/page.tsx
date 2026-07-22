@@ -1,8 +1,15 @@
+import type { Metadata } from "next";
 import { Suspense } from "react";
 import { getTranslations, getLocale } from "next-intl/server";
 import OrdersContent from "./components/OrdersContent";
 import SearchBar from "@/app/[locale]/admin/_components/SearchBar";
 import AdminTableSkeleton from "@/components/skeletons/AdminTableSkeleton";
+
+export const metadata: Metadata = {
+  title: "Orders",
+  description:
+    "View and manage ThreadCraft orders — track status, process shipments, and handle customer orders.",
+};
 
 export default async function OrdersPage({
   searchParams,

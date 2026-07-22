@@ -291,6 +291,17 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+/* Hard fallback: never show the custom cursor on small/coarse-pointer screens */
+@media (max-width: 768px), (pointer: coarse) {
+  #cursor,
+  #cursorRing {
+    display: none !important;
+  }
+  body.cursor-none {
+    cursor: auto !important;
+  }
+}
+
 @layer utilities {
   .canvas-frame::before {
     content: "";

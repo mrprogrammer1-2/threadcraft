@@ -3,10 +3,14 @@
 import { useEffect } from "react";
 import { usePathname } from "@/i18n/navigation";
 
-function isTouchDevice() {
+function isNativeCursorDevice() {
+  if (typeof window === "undefined") return true;
   return (
-    typeof window !== "undefined" &&
-    ("ontouchstart" in window || navigator.maxTouchPoints > 0)
+    window.matchMedia("(pointer: coarse)").matches ||
+    window.matchMedia("(hover: none)").matches ||
+    window.matchMedia("(max-width: 768px)").matches ||
+    "ontouchstart" in window ||
+    navigator.maxTouchPoints > 0
   );
 }
 
@@ -14,27 +18,29 @@ export default function CursorManager() {
   const pathname = usePathname();
 
   useEffect(() => {
-    // Don't hide native cursor on touch devices — custom cursor isn't rendered
-    if (isTouchDevice()) {
-      document.body.classList.remove("cursor-none");
-      document.body.style.cursor = "";
-      return;
-    }
-
     const isNativeCursorRoute =
       pathname?.startsWith("/admin") || pathname?.startsWith("/studio");
 
-    if (isNativeCursorRoute) {
-      document.body.classList.remove("cursor-none");
-      document.body.style.cursor = "";
-    } else {
-      document.body.classList.add("cursor-none");
-      document.body.style.cursor = "";
-    }
+    const applyState = () => {
+      if (isNativeCursorRoute || isNativeCursorDevice()) {
+        document.body.classList.remove("cursor-none");
+        document.body.style.cursor = "";
+      } else {
+        document.body.classList.add("cursor-none");
+        document.body.style.cursor = "";
+      }
+    };
+
+    applyState();
+
+    window.addEventListener("resize", applyState);
+    window.addEventListener("orientationchange", applyState);
 
     return () => {
       document.body.classList.remove("cursor-none");
       document.body.style.cursor = "";
+      window.removeEventListener("resize", applyState);
+      window.removeEventListener("orientationchange", applyState);
     };
   }, [pathname]);
 

@@ -1,5 +1,12 @@
+import type { Metadata } from "next";
 import { Link } from "@/i18n/navigation";
 import { getTranslations } from "next-intl/server";
+
+export const metadata: Metadata = {
+  title: "About",
+  description:
+    "Handcrafted embroidery for every story. Learn about ThreadCraft's mission, process, and commitment to quality custom apparel.",
+};
 
 type Pillar = { label: string; title: string; body: string };
 type Value = { title: string; body: string };

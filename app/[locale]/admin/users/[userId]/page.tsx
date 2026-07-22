@@ -1,7 +1,7 @@
+import type { Metadata } from "next";
 import SingleUserClient from "./SingleUserClient";
 import { getUserById } from "@/lib/queries/usersQueries";
 import {
-  // getUserOrders,
   userRecentOrders,
   userTotalCancelledOrders,
   userTotalOrders,
@@ -9,11 +9,26 @@ import {
   userTotalSpent,
 } from "@/lib/queries/ordersQueiry";
 
-export default async function SingleUserPage({
-  params,
-}: {
+type UserDetailProps = {
   params: Promise<{ userId: string }>;
-}) {
+};
+
+export async function generateMetadata({
+  params,
+}: UserDetailProps): Promise<Metadata> {
+  const { userId } = await params;
+  const user = await getUserById(userId);
+
+  return {
+    title: user
+      ? `${user.firstName || "User"} ${user.lastName || ""}`.trim() ||
+        "User Details"
+      : "User Details",
+    description: `View user profile, orders, and account information for ThreadCraft customer.`,
+  };
+}
+
+export default async function SingleUserPage({ params }: UserDetailProps) {
   const { userId } = await params;
   const user = await getUserById(userId);
 

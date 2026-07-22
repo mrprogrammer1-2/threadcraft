@@ -1,8 +1,15 @@
+import type { Metadata } from "next";
 import { Suspense } from "react";
 import { getTranslations, getLocale } from "next-intl/server";
 import UsersTable from "./components/UsersTable";
 import SearchBar from "../_components/SearchBar";
 import UserTableSkeleton from "@/components/skeletons/UserTableSkeleton";
+
+export const metadata: Metadata = {
+  title: "Users",
+  description:
+    "Manage ThreadCraft users — view profiles, track orders, and manage account status.",
+};
 
 export default async function page({
   searchParams,

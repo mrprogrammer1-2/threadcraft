@@ -1,8 +1,15 @@
+import type { Metadata } from "next";
 import { Suspense } from "react";
 import { getTranslations, getLocale } from "next-intl/server";
 import ProductsTable from "./_components/ProductsTable";
 import SearchBar from "../_components/SearchBar";
 import AdminTableSkeleton from "@/components/skeletons/AdminTableSkeleton";
+
+export const metadata: Metadata = {
+  title: "Products",
+  description:
+    "Manage your ThreadCraft product catalogue — add, edit, and organize embroidery-ready garments.",
+};
 
 export default async function ProductsPage({
   searchParams,

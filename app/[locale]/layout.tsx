@@ -8,7 +8,7 @@ import {
 
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages } from "next-intl/server";
+import { getMessages, getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { cn } from "@/lib/utils";
 import { Providers } from "@/lib/storeProvider";
@@ -40,9 +40,47 @@ const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "ThreadCraft",
+type LocaleLayoutProps = {
+  children: React.ReactNode;
+  params: Promise<{ locale: string }>;
 };
+
+export async function generateMetadata({
+  params,
+}: LocaleLayoutProps): Promise<Metadata> {
+  const { locale } = await params;
+
+  const title =
+    locale === "ar"
+      ? "ThreadCraft — استوديو تطريز مخصّص"
+      : "ThreadCraft — Custom Embroidery Studio";
+
+  const description =
+    locale === "ar"
+      ? "استوديو تطريز مخصّص — ارفع تصميمك، اختر قطعتك، ونحن نطرّزها بدقة. تطريز يدوي بلمسة احترافية."
+      : "Custom embroidery studio — upload your design, choose your garment, and we'll embroider it with precision. Hand-finished custom apparel.";
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      locale: locale === "ar" ? "ar_EG" : "en_US",
+      siteName: "ThreadCraft",
+      type: "website",
+    },
+    alternates: {
+      languages: {
+        en: "/en",
+        ar: "/ar",
+      },
+    },
+    other: {
+      "og:locale:alternate": locale === "ar" ? "en_US" : "ar_EG",
+    },
+  };
+}
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));

@@ -1,10 +1,17 @@
 // ShopPage.tsx
+import type { Metadata } from "next";
 import Link from "next/link";
 import { Suspense } from "react";
 import { getTranslations } from "next-intl/server";
 import { Skeleton } from "@/components/ui/skeleton";
 import { getAllProductsWithType } from "@/lib/queries/productsQueriry";
 import ShopClient from "./ShopClient";
+
+export const metadata: Metadata = {
+  title: "Shop",
+  description:
+    "Browse our collection of embroidery-ready garments — hoodies, t-shirts, caps, tote bags and more. Premium quality, pre-washed and ready to customize.",
+};
 
 function ProductsGridSkeleton() {
   return (

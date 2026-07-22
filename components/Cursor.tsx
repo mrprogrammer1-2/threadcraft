@@ -1,13 +1,15 @@
 "use client";
 
-import { useEffect, useRef, useSyncExternalStore } from "react";
+import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import { createPortal } from "react-dom";
 
-function isTouchDevice() {
-  return (
-    typeof window !== "undefined" &&
-    ("ontouchstart" in window || navigator.maxTouchPoints > 0)
-  );
+function shouldUseNativeCursor() {
+  if (typeof window === "undefined") return true;
+  const coarsePointer = window.matchMedia("(pointer: coarse)").matches;
+  const noHover = window.matchMedia("(hover: none)").matches;
+  const smallScreen = window.matchMedia("(max-width: 768px)").matches;
+  const touchCapable = "ontouchstart" in window || navigator.maxTouchPoints > 0;
+  return coarsePointer || noHover || smallScreen || touchCapable;
 }
 
 /** Returns true only after the component has mounted on the client (hydration-safe) */
@@ -23,9 +25,35 @@ export default function Cursor() {
   const cursorRef = useRef<HTMLDivElement>(null);
   const ringRef = useRef<HTMLDivElement>(null);
   const isClient = useIsClient();
+  // Default to native cursor until we've actually checked — avoids any flash
+  const [useNative, setUseNative] = useState(true);
 
+  // Detect native-cursor devices, and keep it reactive to resize/orientation/devtools toggling
   useEffect(() => {
-    if (!isClient || isTouchDevice()) return;
+    if (!isClient) return;
+
+    const update = () => setUseNative(shouldUseNativeCursor());
+    update();
+
+    const mqList = [
+      window.matchMedia("(pointer: coarse)"),
+      window.matchMedia("(hover: none)"),
+      window.matchMedia("(max-width: 768px)"),
+    ];
+    mqList.forEach((mq) => mq.addEventListener("change", update));
+    window.addEventListener("resize", update);
+    window.addEventListener("orientationchange", update);
+
+    return () => {
+      mqList.forEach((mq) => mq.removeEventListener("change", update));
+      window.removeEventListener("resize", update);
+      window.removeEventListener("orientationchange", update);
+    };
+  }, [isClient]);
+
+  // Cursor-follow logic only runs when we've decided this is NOT a native-cursor device
+  useEffect(() => {
+    if (!isClient || useNative) return;
 
     let mx = 0,
       my = 0,
@@ -77,10 +105,10 @@ export default function Cursor() {
       document.removeEventListener("mousemove", onMouseMove);
       cancelAnimationFrame(rafId);
     };
-  }, [isClient]);
+  }, [isClient, useNative]);
 
-  // Hydration-safe: returns null on both server AND first client render
-  if (!isClient) return null;
+  // Hydration-safe: null on server, first client render, AND on native-cursor devices
+  if (!isClient || useNative) return null;
 
   return createPortal(
     <>
