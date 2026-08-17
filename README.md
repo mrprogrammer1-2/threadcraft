@@ -1,36 +1,102 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hoodify — Custom Streetwear E-Commerce Platform
+
+A full-stack e-commerce web application for custom hoodie and streetwear design, ordering, and management. Built with Next.js 15, React 19, and a modern serverless stack.
+
+## Features
+
+- **Custom Design Studio** — Upload and preview custom designs on products using Fabric.js
+- **Product Catalog & Shop** — Browse products with variants, filtering, and detailed product pages
+- **Cart & Checkout** — Persistent cart with Redux state management, synced to the database
+- **Order Management** — Full order lifecycle: create, update, and track orders
+- **Admin Dashboard** — Manage products, orders, and users with a dedicated admin panel
+- **Authentication** — Secure auth via Kinde with role-based access (user / admin)
+- **Internationalization** — Full i18n support for English and Arabic (RTL) via next-intl
+- **Image Uploads** — Cloudinary integration for product and design image management
+
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Framework | Next.js 15 (App Router) |
+| Language | TypeScript |
+| Styling | Tailwind CSS v4, shadcn/ui |
+| State | Redux Toolkit |
+| Database | Neon (PostgreSQL, serverless) |
+| ORM | Drizzle ORM |
+| Auth | Kinde Auth |
+| Storage | Cloudinary |
+| i18n | next-intl |
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18+
+- A [Neon](https://neon.tech) database
+- A [Kinde](https://kinde.com) application
+- A [Cloudinary](https://cloudinary.com) account
+
+### Installation
+
+```bash
+git clone https://github.com/<your-username>/hoodify-season-2.git
+cd hoodify-season-2
+npm install
+```
+
+### Environment Variables
+
+Copy `.env.example` to `.env.local` and fill in your credentials:
+
+```bash
+cp .env.example .env.local
+```
+
+### Database Setup
+
+```bash
+npm run db:generate
+npm run db:migrate
+```
+
+### Run Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+app/
+├── [locale]/         # Localized routes (en / ar)
+│   ├── (user)/       # Customer-facing pages (shop, cart, profile)
+│   └── admin/        # Admin dashboard
+├── api/              # API route handlers
+└── studio/           # Design studio
 
-## Learn More
+components/           # Reusable UI components
+db/                   # Drizzle schema and migrations
+lib/
+├── actions/          # Server actions
+├── features/         # Redux slices (cart, products)
+└── hooks/            # Custom React hooks
+messages/             # i18n translation files (en, ar)
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Scripts
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Command | Description |
+|---|---|
+| `npm run dev` | Start development server |
+| `npm run build` | Build for production |
+| `npm run start` | Start production server |
+| `npm run lint` | Run ESLint |
+| `npm run db:generate` | Generate Drizzle migrations |
+| `npm run db:migrate` | Apply migrations to the database |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
