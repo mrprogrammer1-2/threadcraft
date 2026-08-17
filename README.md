@@ -1,4 +1,4 @@
-![Uploading threadcraft-drab.vercel.app_en (9).png…]()
+[![Uploading threadcraft-drab.vercel.app_en (9).png…]()](https://threadcraft-drab.vercel.app/en)
 # Hoodify — Custom Streetwear E-Commerce Platform
 
 A full-stack e-commerce web application for custom hoodie and streetwear design, ordering, and management. Built with Next.js 15, React 19, and a modern serverless stack.
